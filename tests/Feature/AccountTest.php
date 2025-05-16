@@ -10,6 +10,8 @@ class AccountTest extends TestCase
 {
     use RefreshDatabase;
 
+    //Tests
+
     public function test_account_created_with_zero_balance()
     {
         $account = Account::create();
